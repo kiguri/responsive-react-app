@@ -32,7 +32,7 @@ const HeroSection = () => {
                         to='signup'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
-                        dark
+                        dark={false}
                         primary
                     >
                         Get started { hover ? <ArrowForward /> : <ArrowRight /> }
